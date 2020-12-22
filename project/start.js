@@ -13,8 +13,8 @@ app.get('/', function(request, response) {
   response.render('pages/index.ejs');
 });
 
-app.get('/about', function(request, response) {
-  response.render('pages/about.ejs');
+app.get('/database', function(request, response) {
+  response.render('pages/database.ejs');
 });
 
 app.get('/project', function(request, response) {

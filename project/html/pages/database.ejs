@@ -8,15 +8,14 @@
   <!-- Check out more components here: http://getbootstrap.com/components/ -->
   <div class="page-header">
     <% include ../helpers/navbar %>
-    <h1>About this project</h1>
+    <h1>Database</h1>
   </div>
 
-  <p>Click on the button for a surprise.</p>
+  <p>Here is what you have typed in the Home page.</p>
 
-  <button onClick="showPicture()" class="btn btn-dark">Click me</button>
+  <div id="post-listing"></div>
 
-  <div id="image"></div>
-  
+  <button onClick="resetDatabase()">Reset Data</button>
 </body>
 
 </html>

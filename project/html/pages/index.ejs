@@ -17,11 +17,22 @@
   <button onClick="showPicture()" class="btn btn-dark">Click me</button>
 
   <div id="image"></div> -->
+  <p>Use this box to get weather information of a city.</p>
   <input class="search" type="text" placeholder="Enter city name">
   <button type="button" onClick="searchWeather()">Search</button>
   <div class ="city"></div>
   <div class ="temp"></div>
   <div class ="error-message"></div>
+
+  <button onclick="handleSignIn()">Login</button>
+
+  <form onSubmit="handleMessageFormSubmit()" action="#">
+    Title:<br>
+    <input id="post-title"><br>
+    Body:<br>
+    <textarea id="post-body"></textarea><br>
+    <button>Submit</button>
+  </form>
 
 </body>
 
